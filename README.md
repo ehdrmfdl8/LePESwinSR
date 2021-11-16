@@ -6,6 +6,10 @@ Swin Transformer Using Locally-enhanced Position Encoding for Real World Super R
 
 [Training code]
 
+<p align="center">
+  <img src="img/ablation_study_building.png">
+</p>
+
 - train -PSNR
 ```
 python main_train.py
