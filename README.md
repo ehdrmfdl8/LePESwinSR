@@ -1,10 +1,18 @@
 # LePESwinSR
-Swin Transformer Using Locally-enhanced Position Encoding for Real World Super Resolution
+Swin Transformer for Real World Super Resolution Using Locally-enhanced Position Encoding
 
-## proposed model
+## Proposed algorithm
+- generator
+![proposed_model](img/proposed_model.png)
+- LePE(Locally-enhanced Position Encoding)
+![LePE_Attention_Block](img/LePE_Attention_Block.png)
+- Neck
 
-## ablation study
+- discriminator
+![patch_GAN](img/patchGAN.png)
 
+## Ablation study
+![ablation](img/ablation.png)
 
 ![building](img/ablation_study_building.png)
 
@@ -12,7 +20,7 @@ Swin Transformer Using Locally-enhanced Position Encoding for Real World Super R
 
 ![dped_crop](img/ablation_study_dped_crop.png)
 
-## comparison with other model
+## Comparison with other models
 
 
 ![baby](img/comparison_baby.png)
