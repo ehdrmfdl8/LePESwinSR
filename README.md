@@ -11,7 +11,7 @@ Swin Transformer for Real World Super Resolution Using Locally-enhanced Position
 - discriminator
 ![patch_GAN](img/patchGAN.png)
 
-## Ablation study
+## Ablation study (visual results)
 ![ablation](img/ablation.png)
 
 ![building](img/ablation_study_building.png)
@@ -32,12 +32,13 @@ Swin Transformer for Real World Super Resolution Using Locally-enhanced Position
 ![frog](img/comparison_frog.png)
 
 [Training code]
-- train -PSNR
+- train -PSNR model
 ```
 python main_train.py
 ```
 
-- train -GAN 
+- train -GAN model
 ```
 python main_train_gan.py
 ```
+Download pre-trained models: [Google Drive](https://drive.google.com/drive/u/1/folders/1gYvlfsDR71p2ScDjUSXDwW-EqS7Bcw4k)
