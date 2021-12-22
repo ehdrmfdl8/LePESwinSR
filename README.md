@@ -12,6 +12,9 @@ To deal with this problem, we propose our model which can restore LR images suff
 This is thesis for the Master of Science [[thesis](https://drive.google.com/file/d/18gJewIzNnOzD1OfGzI7lEhNSgfHeKVK0/view?ths=true)]
 
 ## Proposed algorithm
+- overview
+![overview](img/overview.png)
+
 - generator
 
 ![proposed_model](img/proposed_model.png)
