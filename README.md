@@ -1,6 +1,16 @@
 # LePESwinSR
 Swin Transformer for Real World Super Resolution Using Locally-enhanced Position Encoding
 
+## Abstract
+Real-world images can contain degradation such as camera blur, sensor noise, low resolution and JPEG compression.
+To deal with this problem, we propose our model which can restore LR images sufferring from unknown and complex degradations.
+1. Degradation model which make synthesized dataset - effect on data augmentation
+2. GAN arichitecture - generator and discriminator
+3. Swin transformer layer with Locally-enhanced Position Encoding - adjacent pixel information is important in SR task
+4. Neck consists of deconvolution layer and RSTB module with local window size 4 - considering adjacent pixels and upsampling features. 
+
+This is thesis for the Master of Science [[thesis](https://drive.google.com/file/d/18gJewIzNnOzD1OfGzI7lEhNSgfHeKVK0/view?ths=true)]
+
 ## Proposed algorithm
 - generator
 
@@ -11,6 +21,7 @@ Swin Transformer for Real World Super Resolution Using Locally-enhanced Position
 ![LePE_Attention_Block](img/LePE_Attention_Block.png)
 
 - Neck
+![Neck](img/Neck.png)
 
 - discriminator
 ![patch_GAN](img/patchGAN.png)
